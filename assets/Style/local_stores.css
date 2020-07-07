@@ -1,0 +1,121 @@
+
+
+
+
+/* Description */
+.description {
+    margin: 0 auto;
+    max-width: 1172px;
+}
+.description_inner {
+    display: flex;
+    justify-content: space-between;
+}
+.description_item {
+    width: 33%;
+}
+.description_title, 
+.description_subtitle, 
+.description_text, 
+.description_btn {
+    font-weight: 400;
+    color: #737373;
+}
+.description_title, 
+.description_subtitle,
+.description_btn {
+    text-transform: uppercase;
+}
+.description_title {
+    font-size: 18px;
+}
+.description_subtitle {
+    margin: 25px 0;
+    font-size: 13px;
+}
+.description_text {
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.description_btn {
+    padding: 20px 30px;
+    text-decoration: none;
+    border: 2px solid #737373;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    background: transparent;
+    transition: border .1s linear, color .2s linear, box-shadow .2s linear, background .2s linear;
+}
+.description_btn:hover {
+    color: #fff;
+    border-color: #00c8c8;
+    background: #00c8c8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+/* Map */
+.map {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 530px;
+    margin-bottom: 124px;
+    color: #8e8c8c;
+    background: #f8f8f8;
+}
+.map_img {
+    width: 70%;
+    height: 530px;
+}
+.map_inner {
+    width: 30%;
+    margin: 30px;
+    margin-left: 45px;
+    
+}
+.map_title,
+.map_subtitle {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.map_title {
+    font-size: 18px;
+}
+.map_subtitle {
+    font-size: 13px;
+    margin: 30px 0 20px;
+}
+.map_text {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.map_contact {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #8e8c8c;
+}
+.map_contact i {
+    margin-right: 10px;
+}
+.map_social_contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.map_social_contact_link {
+    text-decoration: none;
+}
+.map_social_contact_link i {
+    margin-right: 15px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    background-color: #8e8c8c;
+    border-radius: 50%;
+}
