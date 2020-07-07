@@ -240,7 +240,7 @@ body {
 
 /*Additional_nav */
 .add_nav {
-    display: flex;
+    display: none;
     margin-top: 20px;
 }
 .add_nav_box {

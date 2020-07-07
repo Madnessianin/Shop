@@ -1,0 +1,17 @@
+
+/* Lookbook_products */
+
+.lookbook_products {
+    display: grid;
+    grid-template-columns: 420px 420px 420px 420px;
+    grid-template-rows: 500px 500px 500px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin-bottom: 60px;
+}
+.lookbook_products_item--third {
+    grid-column: 3/5;
+}
+.lookbook_products_item--eighth {
+    grid-column: 1/4;
+}
