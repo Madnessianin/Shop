@@ -308,6 +308,33 @@ body {
     background: #333;
 }
 
+/* Products */ 
+.products {
+    margin: 0 20px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.products_sorting {
+    display: flex;
+    justify-content: flex-start;
+    margin: 50px 0;
+}
+.products_sorting_link {
+    display: block;
+    margin-right: 60px;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+    transition: color .2s linear;
+}
+.products_sorting_link:last-child {
+    margin-right: 0;
+}
+.products_sorting_link:hover {
+    color: #00c8c8;
+}
 
 /* Lookbook */
 .lookbook {
