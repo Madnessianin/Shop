@@ -237,7 +237,9 @@ body {
     text-transform: uppercase;
     color: #fff;
 }
-
+.intro_subtitle span {
+    color: #00c8c8;
+}
 /*Additional_nav */
 .add_nav {
     display: none;

@@ -2,8 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Home</title>
-        <link href="assets/Style/home.css" rel="stylesheet">
+        <title>ProductView</title>
+        <link href="assets/Style/product_view.css" rel="stylesheet">
         <link href="assets/Style/general.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/6bb980644b.js" crossorigin="anonymous"></script>
@@ -35,13 +35,13 @@
                 </div>
                 <div class="conteiner">
                     <div class="header_inner">
-                        <a href="home.html" class="header_logo">avenue <span>fashion</span></a>
+                        <a href="home.html" target="_blank" class="header_logo">avenue <span>fashion</span></a>
                         <nav class="nav">
-                            <a href="product_view.html" target="_blank" class="nav_link">Mens</a>
-                            <a href="product_view.html" target="_blank" class="nav_link">womens</a>
+                            <a href="product_view.html" class="nav_link">Mens</a>
+                            <a href="product_view.html" class="nav_link">womens</a>
                             <a href="brand.html" target="_blank" class="nav_link">the brand</a>
                             <a href="local_stores.html" target="_blank" class="nav_link">local stores</a>
-                            <a href="lookbook.html" class="nav_link">look book</a>
+                            <a href="#" class="nav_link">look book</a>
                             <form class="nav_form" action="/" method="POST">
                                 <input class="nav_input" type="text" placeholder="Search...">
                                 <button type="submit" class="nav_btn">
@@ -98,165 +98,146 @@
                 </div>
             </header>
 
+            
             <!--Intro-->
-            <section class="section section--intro_main">
-                <div class="conteiner">
-                    <div class="intro_main">
-                        <div class="intro_main_title">
-                            <span>a</span>
-                            <span>v</span>
-                            <span>e</span>
-                        </div>
-                        <a class="intro_main_btn" href="#" target="_blank">shop men’s collection</a>
-                    </div>
+            <section class="section section--intro">
+            <div class="conteiner">
+                <div class="intro">
+                    <div class="intro_title"><span>Product</span> view</div>
+                    <div class="intro_subtitle">mens - casuals - hoodies & sweatshirts - <span>ave classic sweatshirt</span></div>
                 </div>
+            </div>
             </section>
 
-            <!--Products-->
+            <!--Product_view-->
             <section class="section">
                 <div class="conteiner">
-                    <div class="products">                   
-                        <nav class="products_sorting">
-                            <a class="products_sorting_link" href="#">popular</a>
-                            <a class="products_sorting_link" href="#">new arrivals</a>
-                            <a class="products_sorting_link" href="#">best sellers</a>
-                            <a class="products_sorting_link" href="#">special offers</a>
-                            <a class="products_sorting_link" href="#">coming soon</a>
-                        </nav>
-                        <div class="home_products_inner">
-                            <div class="home_product_col home_product_col_first">
-                                <div class="home_products_item">
-                                    <img src="assets/Image/Home/Products/1.jpg" alt="">
-                                    <div class="home_products_price"><span class="currency">£</span>89.99</div>
-                                    <div class="home_products_description">
-                                        <div class="home_products_description_title">Mens burnt orange casual tee <span class="currency">£</span>89.99</div>
-                                        <div class="home_products_description_text">Classic casual t-shirt for women on the move. 
-                                        <br>100% cotton.</div>
-                                        <div class="home_products_description_icons">
-                                            <i class="fas fa-shopping-cart"></i>
-                                            <i class="far fa-heart"></i>
-                                            <i class="fas fa-compress-alt"></i>
-                                        </div>
+                    <div class="product_view">
+                        <div class="product_view_inner">
+                            <img class="product_view_img" src="assets/Image/Products/1.jpg" alt="">
+                            <div class="product_view_description">
+                                <h4 class="product_view_title">Ave classic sweatshirt</h4>
+                                <div class="product_view_about">
+                                    <div class="product_view_star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <nav class="product_view_nav">
+                                        <a href="#" target="_blank" class="product_view_link product_view_link--border">3 Review(s)</a>
+                                        <a href="#" target="_blank" class="product_view_link product_view_link--border">Add a Review</a>
+                                        <label class="product_view_label">Share:</label>
+                                        <a href="#" target="_blank" class="product_view_link">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                        <a href="#" target="_blank" class="product_view_link">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                        <a href="#" target="_blank" class="product_view_link">
+                                            <i class="fab fa-google-plus-g"></i>
+                                        </a>
+                                        <a href="#" target="_blank" class="product_view_link">
+                                            <i class="fab fa-pinterest-p"></i>
+                                        </a>
+                                        <a href="#" target="_blank" class="product_view_link">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                        <a href="#" target="_blank" class="product_view_link">
+                                            <i class="far fa-envelope"></i>
+                                        </a>
+                                    </nav>
+                                </div>
+                                <div class="product_view_currency">
+                                    <span class="product_view_currency_old"><small>&pound;</small>107</span>
+                                    <span class="product_view_currency_new"><small>&pound;</small>89.99</span>
+                                </div>
+                                <div class="product_view_add_info_inner">
+                                    <div class="product_view_add_info_item">Availability: <span>In stock</span></div>
+                                    <div class="product_view_add_info_item">Product Code: <span>#499577</span></div>
+                                    <div class="product_view_add_info_item">Tags: <span class="tags">Classic, Casual, V-neck, Loose</span></div>
+                                </div>
+                                <div class="product_view_text">Donec sem lorem laoreet tempor un risus vitae, 
+                                rutrum sodales nibh suspendisse est congue metus nunc, id viverra elit loreti 
+                                rhoncus quis consecteur es. Donec pulvinar tempor lorem a pretium justo interdum.</div>
+                                <ul class="product_view_list">
+                                    <li>Elasticated cuffs</li>
+                                    <li>Casual fit</li>
+                                    <li>100% Cotton</li>
+                                    <li>Free shipping with 4 days delivery</li>
+                                </ul>
+                                <div class="product_view_select_inner">
+                                    <div class="product_view_select_item">
+                                        <label for="color">Color</label>
+                                        <select name="Color" id="color">
+                                            <option value="none" selected>Select color</option>
+                                            <option value="Black">Black</option>
+                                            <option value="Red">Red</option>
+                                            <option value="Blue">Blue</option>
+                                        </select>
+                                    </div>
+                                    <div class="product_view_select_item">
+                                        <label for="size">Size</label>
+                                        <select name="Size" id="size">
+                                            <option value="none" selected>Select size</option>
+                                            <option value="M">M</option>
+                                            <option value="X">X</option>
+                                            <option value="XL">XL</option>
+                                        </select>
+                                    </div>
+                                    <div class="product_view_select_item">
+                                        <label for="quantity">qty</label>
+                                        <select name="quantity" id="quantity">
+                                            <option value="1" selected>1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
                                     </div>
                                 </div>
-                                <div class="home_products_item">
-                                    <img src="assets/Image/Home/Products/2.jpg" alt="">
-                                    <div class="home_products_price"><span class="currency">£</span>47.50</div>
-                                    <div class="home_products_description">
-                                        <div class="home_products_description_title">Womens burnt orange casual tee <span class="currency">£</span>89.99</div>
-                                        <div class="home_products_description_text">Classic casual t-shirt for women on the move. 
-                                        <br>100% cotton.</div>
-                                        <div class="home_products_description_icons">
-                                            <i class="fas fa-shopping-cart"></i>
-                                            <i class="far fa-heart"></i>
-                                            <i class="fas fa-compress-alt"></i>
-                                        </div>
-                                    </div>
+                                <div class="product_view_buttons">
+                                    <a href="#" id="cart" class="product_view_btn"><i class="fas fa-shopping-cart"></i>&#8195;Add to Cart</a>
+                                    <a href="#" id="like" class="product_view_btn"><i class="far fa-heart"></i>&#8195;Add to LookBook</a>
                                 </div>
-                                <div class="home_products_item big big-1">
-                                    <img src="assets/Image/Home/Products/4.jpg" alt="">
-                                    <div class="home_products_price"><span class="currency">£</span>69.95</div>
-                                    <div class="home_products_description">
-                                        <div class="home_products_description_title">Mens burnt orange casual tee <span class="currency">£</span>89.99</div>
-                                        <div class="home_products_description_text">Classic casual t-shirt for women on the move. 
-                                        <br>100% cotton.</div>
-                                        <div class="home_products_description_icons">
-                                            <i class="fas fa-shopping-cart"></i>
-                                            <i class="far fa-heart"></i>
-                                            <i class="fas fa-compress-alt"></i>
-                                        </div>
-                                    </div>
-                                </div>
+                                <a class="product_view_btn_compare" href="#"><i class="fas fa-compress-alt"></i>&#8195;add to compare</a>
                             </div>
-                            <div class="home_product_col home_product_col_second">
-                                <div class="home_products_item big">
-                                    <img src="assets/Image/Home/Products/3.jpg" alt="">
-                                    <div class="home_products_price"><span class="currency">£</span><span class="line">107</span>&nbsp;<span class="currency">£</span>89.99 </div>
-                                    <div class="home_products_description">
-                                        <div class="home_products_description_title">Mens burnt orange casual tee <span class="currency">£</span>89.99</div>
-                                        <div class="home_products_description_text">Classic casual t-shirt for women on the move. 
-                                        <br>100% cotton.</div>
-                                        <div class="home_products_description_icons">
-                                            <i class="fas fa-shopping-cart"></i>
-                                            <i class="far fa-heart"></i>
-                                            <i class="fas fa-compress-alt"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="home_products_item small">
-                                    <img src="assets/Image/Home/Products/5.jpg" alt="">
-                                    <div class="home_products_price"><span class="currency">£</span>29.95</div>
-                                    <div class="home_products_description">
-                                        <div class="home_products_description_title">Womens burnt orange casual tee <span class="currency">£</span>89.99</div>
-                                        <div class="home_products_description_text">Classic casual t-shirt for women on the move. 
-                                        <br>100% cotton.</div>
-                                        <div class="home_products_description_icons">
-                                            <i class="fas fa-shopping-cart"></i>
-                                            <i class="far fa-heart"></i>
-                                            <i class="fas fa-compress-alt"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="home_products_item small">
-                                    <img src="assets/Image/Home/Products/6.jpg" alt="">
-                                    <div class="home_products_price"><span class="currency">£</span>34.79</div>
-                                    <div class="home_products_description">
-                                        <div class="home_products_description_title">Womens burnt orange casual tee <span class="currency">£</span>89.99</div>
-                                        <div class="home_products_description_text">Classic casual t-shirt for women on the move. 
-                                        <br>100% cotton.</div>
-                                        <div class="home_products_description_icons">
-                                            <i class="fas fa-shopping-cart"></i>
-                                            <i class="far fa-heart"></i>
-                                            <i class="fas fa-compress-alt"></i>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="product_view_more">
+                                <nav class="product_view_more_nav">
+                                    <a href="#" class="product_view_more_link">Description</a>
+                                    <a href="#" class="product_view_more_link">Video</a>
+                                    <a href="#" class="product_view_more_link">Size & Specs</a>
+                                    <a href="#" class="product_view_more_link">Delivery & Returns</a>
+                                    <a href="#" class="product_view_more_link">Reviews</a>
+                                </nav>
+                                <div class="product_view_more_title">Nunc egestas posuere enim, eu maximus erat posuere eget</div>
+                                <div class="product_view_text">Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis. 
+                                Nulla sapien magna, interdum quis pretium nec, pharetra at felis. Curabitur dictum sapien est, 
+                                eget ultricies turpis porta vel. Nam suscipit nec lacus sed imperdiet. Vestibulum a purus risus. 
+                                Nulla et dictum augue, nec efficitur mi. Nam sit amet pretium elit. 
+                                Aliquam congue, ligula id vehicula vestibulum, orci ex vulputate lacus, 
+                                ac malesuada elit dolor eget ex. Sed quis aliquet risus, ut cursus lectus. In eget lorem tellus.
+                                <br>
+                                Quisque eleifend varius nisi nec sagittis. Nulla ullamcorper imperdiet justo, 
+                                ut venenatis purus lobortis ut. Nunc sagittis urna et hendrerit sodales. 
+                                Nunc molestie risus nec fringilla lacinia. Nulla facilisi. Etiam neque velit, 
+                                tristique eget sollicitudin eget, placerat at metus. Proin dictum lobortis velit,
+                                id suscipit orci faucibus ut. Aliquam erat volutpat. Vivamus feugiat justo in diam placerat, 
+                                id dignissim elit auctor. Vestibulum scelerisque sem et lobortis ultricies. Morbi suscipit nulla urna. 
+                                Suspendisse potenti. Nullam varius quam sed nisl dignissim, vel faucibus ipsum blandit. 
+                                Vivamus at suscipit augue. Nam finibus gravida lorem eu viverra. Praesent rhoncus imperdiet ultricies. 
+                                Nullam pretium cursus augue auctor vulputate. Quisque a convallis diam commodo eget diam id, 
+                                eleifend dictum libero. Etiam varius, nisi vel dignissim sodales, enim dui posuere mauris, 
+                                in aliquet lorem eros eget neque.</div>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <!--Lookbook-->
-            <section class="section section--lookbook">
-                <div class="lookbook">
-                    <div class="lookbook_item">
-                        <div class="lookbook_img">
-                            <img src="assets/Image/Home/lookbook/1.jpg" alt="">
-                        </div>
-                        <div class="lookbook_inner">
-                            <div class="lookbook_title"><span>men’s</span><br>lookbook</div>
-                            <div class="lookbook_text">Lorem ipsum dolor sit amet eras facilisis consectetur adipiscing elit lor, 
-                            integer lorem consecteur dignissim laciniqui. Elementum metus facilisis ut phasellu.</div>
-                            <a href="#" class="lookbook_btn">view now</a>
-                        </div>
-                    </div>
-                    <div class="lookbook_item">
-                        <div class="lookbook_img">
-                            <img src="assets/Image/Home/lookbook/2.jpg" alt="">
-                        </div>
-                        <div class="lookbook_inner">
-                            <div class="lookbook_title "><span>women’s</span><br>lookbook</div>
-                            <div class="lookbook_text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames .
-                            Pellentesque laoreet quis enim et mattis. Quisque interdum felis tellus.</div>
-                            <a href="#" class="lookbook_btn">view now</a>
-                        </div>
-                    </div>
-                    <div class="lookbook_item">
-                        <div class="lookbook_img">
-                            <img src="assets/Image/Home/lookbook/3.jpg" alt="">
-                        </div>
-                        <div class="lookbook_inner">
-                            <div class="lookbook_title "><span>your</span><br>lookbook</div>
-                            <div class="lookbook_text">See an item you like and click the 
-                            <i class="far fa-heart"></i>
-                            button to add it to your lookbook where you can 
-                            create your own perfect look.It’s like your own boutique!</div>
-                            <a href="#" class="lookbook_btn">view now</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            
 
             <!--Footer-->
             <footer class="footer">
